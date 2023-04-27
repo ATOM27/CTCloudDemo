@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A239AA044F593A7055D460A /* Pods_CTCloudDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 108FA666CB12831D1C488B07 /* Pods_CTCloudDemo.framework */; };
+		556471084EB7464E6230CB40 /* Pods_CTCloudDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAE962EA52B847FE59F9F036 /* Pods_CTCloudDemoTests.framework */; };
 		874DEA9D29EFFD0B00FA2600 /* CTCloudDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DEA9C29EFFD0B00FA2600 /* CTCloudDemoApp.swift */; };
 		874DEA9F29EFFD0B00FA2600 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DEA9E29EFFD0B00FA2600 /* ContentView.swift */; };
 		874DEAA129EFFD0E00FA2600 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 874DEAA029EFFD0E00FA2600 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		874DEAAE29EFFD0F00FA2600 /* CTCloudDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DEAAD29EFFD0F00FA2600 /* CTCloudDemoTests.swift */; };
 		874DEAB829EFFD0F00FA2600 /* CTCloudDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DEAB729EFFD0F00FA2600 /* CTCloudDemoUITests.swift */; };
 		874DEABA29EFFD0F00FA2600 /* CTCloudDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874DEAB929EFFD0F00FA2600 /* CTCloudDemoUITestsLaunchTests.swift */; };
+		9AC2BCF72C8E7D62D0B726DA /* Pods_CTCloudDemo_CTCloudDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087A12515F06E2235486F5DB /* Pods_CTCloudDemo_CTCloudDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06DFB07861317009E6E99ACA /* Pods-CTCloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTCloudDemo.release.xcconfig"; path = "Target Support Files/Pods-CTCloudDemo/Pods-CTCloudDemo.release.xcconfig"; sourceTree = "<group>"; };
+		087A12515F06E2235486F5DB /* Pods_CTCloudDemo_CTCloudDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTCloudDemo_CTCloudDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E57841519E551F20CEFED73 /* Pods-CTCloudDemo-CTCloudDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTCloudDemo-CTCloudDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CTCloudDemo-CTCloudDemoUITests/Pods-CTCloudDemo-CTCloudDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		108FA666CB12831D1C488B07 /* Pods_CTCloudDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTCloudDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B9BA84B19F39C8B90351A0 /* Pods-CTCloudDemo-CTCloudDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTCloudDemo-CTCloudDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CTCloudDemo-CTCloudDemoUITests/Pods-CTCloudDemo-CTCloudDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		83D55E750FF7346F8151A3A4 /* Pods-CTCloudDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTCloudDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CTCloudDemoTests/Pods-CTCloudDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		874DEA9929EFFD0B00FA2600 /* CTCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		874DEA9C29EFFD0B00FA2600 /* CTCloudDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTCloudDemoApp.swift; sourceTree = "<group>"; };
 		874DEA9E29EFFD0B00FA2600 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +54,10 @@
 		874DEAB729EFFD0F00FA2600 /* CTCloudDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTCloudDemoUITests.swift; sourceTree = "<group>"; };
 		874DEAB929EFFD0F00FA2600 /* CTCloudDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTCloudDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		874DEAC629EFFD5900FA2600 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		877E84E329FAAD8900544DD7 /* ci_post_clone.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ci_post_clone.sh; sourceTree = "<group>"; };
+		B1E0E840204E41450A06E715 /* Pods-CTCloudDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTCloudDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CTCloudDemoTests/Pods-CTCloudDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBA2AF289797C836AAE4E468 /* Pods-CTCloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTCloudDemo.debug.xcconfig"; path = "Target Support Files/Pods-CTCloudDemo/Pods-CTCloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EAE962EA52B847FE59F9F036 /* Pods_CTCloudDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTCloudDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A239AA044F593A7055D460A /* Pods_CTCloudDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556471084EB7464E6230CB40 /* Pods_CTCloudDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AC2BCF72C8E7D62D0B726DA /* Pods_CTCloudDemo_CTCloudDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +91,13 @@
 		874DEA9029EFFD0B00FA2600 = {
 			isa = PBXGroup;
 			children = (
+				877E84E229FAAD7100544DD7 /* ci_scripts */,
 				874DEA9B29EFFD0B00FA2600 /* CTCloudDemo */,
 				874DEAAC29EFFD0F00FA2600 /* CTCloudDemoTests */,
 				874DEAB629EFFD0F00FA2600 /* CTCloudDemoUITests */,
 				874DEA9A29EFFD0B00FA2600 /* Products */,
+				EA485CD7E4F212C8DF58D766 /* Pods */,
+				8B494B2522B80FE6945C1C44 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +148,37 @@
 			path = CTCloudDemoUITests;
 			sourceTree = "<group>";
 		};
+		877E84E229FAAD7100544DD7 /* ci_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				877E84E329FAAD8900544DD7 /* ci_post_clone.sh */,
+			);
+			path = ci_scripts;
+			sourceTree = "<group>";
+		};
+		8B494B2522B80FE6945C1C44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				108FA666CB12831D1C488B07 /* Pods_CTCloudDemo.framework */,
+				087A12515F06E2235486F5DB /* Pods_CTCloudDemo_CTCloudDemoUITests.framework */,
+				EAE962EA52B847FE59F9F036 /* Pods_CTCloudDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA485CD7E4F212C8DF58D766 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBA2AF289797C836AAE4E468 /* Pods-CTCloudDemo.debug.xcconfig */,
+				06DFB07861317009E6E99ACA /* Pods-CTCloudDemo.release.xcconfig */,
+				75B9BA84B19F39C8B90351A0 /* Pods-CTCloudDemo-CTCloudDemoUITests.debug.xcconfig */,
+				0E57841519E551F20CEFED73 /* Pods-CTCloudDemo-CTCloudDemoUITests.release.xcconfig */,
+				B1E0E840204E41450A06E715 /* Pods-CTCloudDemoTests.debug.xcconfig */,
+				83D55E750FF7346F8151A3A4 /* Pods-CTCloudDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 874DEABD29EFFD0F00FA2600 /* Build configuration list for PBXNativeTarget "CTCloudDemo" */;
 			buildPhases = (
+				9AF459800D4EAD584588B779 /* [CP] Check Pods Manifest.lock */,
 				874DEA9529EFFD0B00FA2600 /* Sources */,
 				874DEA9629EFFD0B00FA2600 /* Frameworks */,
 				874DEA9729EFFD0B00FA2600 /* Resources */,
+				1A423D71376EAAEF60952226 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -153,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 874DEAC029EFFD0F00FA2600 /* Build configuration list for PBXNativeTarget "CTCloudDemoTests" */;
 			buildPhases = (
+				DAC9A0E7024E5C84EA66230E /* [CP] Check Pods Manifest.lock */,
 				874DEAA529EFFD0F00FA2600 /* Sources */,
 				874DEAA629EFFD0F00FA2600 /* Frameworks */,
 				874DEAA729EFFD0F00FA2600 /* Resources */,
@@ -171,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 874DEAC329EFFD0F00FA2600 /* Build configuration list for PBXNativeTarget "CTCloudDemoUITests" */;
 			buildPhases = (
+				F03AF174DCBE6E32B94BAD8E /* [CP] Check Pods Manifest.lock */,
 				874DEAAF29EFFD0F00FA2600 /* Sources */,
 				874DEAB029EFFD0F00FA2600 /* Frameworks */,
 				874DEAB129EFFD0F00FA2600 /* Resources */,
+				594D1A4B2D00EB229FC68BB6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,7 +264,7 @@
 				};
 			};
 			buildConfigurationList = 874DEA9429EFFD0B00FA2600 /* Build configuration list for PBXProject "CTCloudDemo" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -253,6 +308,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A423D71376EAAEF60952226 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTCloudDemo/Pods-CTCloudDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTCloudDemo/Pods-CTCloudDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CTCloudDemo/Pods-CTCloudDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		594D1A4B2D00EB229FC68BB6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTCloudDemo-CTCloudDemoUITests/Pods-CTCloudDemo-CTCloudDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CTCloudDemo-CTCloudDemoUITests/Pods-CTCloudDemo-CTCloudDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CTCloudDemo-CTCloudDemoUITests/Pods-CTCloudDemo-CTCloudDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AF459800D4EAD584588B779 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTCloudDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAC9A0E7024E5C84EA66230E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTCloudDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F03AF174DCBE6E32B94BAD8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CTCloudDemo-CTCloudDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		874DEA9529EFFD0B00FA2600 /* Sources */ = {
@@ -413,6 +571,7 @@
 		};
 		874DEABE29EFFD0F00FA2600 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA2AF289797C836AAE4E468 /* Pods-CTCloudDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,6 +602,7 @@
 		};
 		874DEABF29EFFD0F00FA2600 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06DFB07861317009E6E99ACA /* Pods-CTCloudDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +633,7 @@
 		};
 		874DEAC129EFFD0F00FA2600 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1E0E840204E41450A06E715 /* Pods-CTCloudDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +654,7 @@
 		};
 		874DEAC229EFFD0F00FA2600 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D55E750FF7346F8151A3A4 /* Pods-CTCloudDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +675,7 @@
 		};
 		874DEAC429EFFD0F00FA2600 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75B9BA84B19F39C8B90351A0 /* Pods-CTCloudDemo-CTCloudDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +694,7 @@
 		};
 		874DEAC529EFFD0F00FA2600 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E57841519E551F20CEFED73 /* Pods-CTCloudDemo-CTCloudDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
